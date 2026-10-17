@@ -37,12 +37,12 @@ layers:
   - M
   - ','
   - .
-  - LEFT ALT
+  - RCTRL
   - {t: RIGHT SHIFT, h: sticky}
   - '1'
   - LCTRL
   - LEFT ALT
-  - RCTRL
+  - LEFT ALT
   - SPACE
   - '2'
   '1':
