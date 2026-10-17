@@ -14,7 +14,51 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+            layers = <0>;
+        };
+
+        select_to_bol {
+            bindings = <&kp LS(HOME)>;
+            key-positions = <32 33>;
+            layers = <0>;
+        };
+
+        select_to_eol {
+            bindings = <&kp LS(END)>;
+            key-positions = <34 35>;
+            layers = <0>;
+        };
+
+        word_backward {
+            bindings = <&kp LC(LEFT_ARROW)>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        word_forward {
+            bindings = <&kp LC(RIGHT)>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        mousekey_3 {
+            bindings = <&mkp MB3>;
+            key-positions = <17 29>;
+            layers = <2>;
+        };
+
+        esc-jk {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -70,7 +114,7 @@
             bindings = <
 &trans     &kp F1  &kp F2  &kp F3  &kp F10  &kp PAGE_UP                    &kp PAGE_DOWN  &none           &none      &kp LS(DELETE)  &kp RGUI       &kp PRINTSCREEN
 &trans     &kp F4  &kp F5  &kp F6  &kp F11  &kp HOME                       &kp LS(HOME)   &kp LALT        &kp RCTRL  &kp RGUI        &kp RALT       &kp ENTER
-&kp LSHFT  &kp F7  &kp F8  &kp F9  &kp F12  &kp END      &trans    &trans  &kp LS(END)    &sk LEFT_SHIFT  &sk RCTRL  &sk RIGHT_ALT   &sk RIGHT_GUI  &kp RSHFT
+&kp LSHFT  &kp F7  &kp F8  &kp F9  &kp F12  &kp END      &none     &none   &kp LS(END)    &sk LEFT_SHIFT  &sk RCTRL  &sk RIGHT_ALT   &sk RIGHT_GUI  &kp RSHFT
                                    &trans   &trans       &trans    &trans  &trans         &trans
             >;
         };
