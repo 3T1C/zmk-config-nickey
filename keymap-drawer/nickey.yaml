@@ -167,7 +167,7 @@ layers:
   - F12
   - END
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   - Sft+END
   - {t: LEFT SHIFT, h: sticky}
   - {t: RCTRL, h: sticky}
@@ -225,3 +225,25 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESCAPE
+  l: [default]
+- p: [32, 33]
+  k: Sft+HOME
+  l: [default]
+- p: [34, 35]
+  k: Sft+END
+  l: [default]
+- p: [18, 19]
+  k: Ctl+LEFT ARROW
+  l: [default]
+- p: [20, 21]
+  k: Ctl+RIGHT
+  l: [default]
+- p: [17, 29]
+  k: '&mkp MB3'
+  l: ['2']
+- p: [19, 20]
+  k: ESCAPE
+  l: [default]
