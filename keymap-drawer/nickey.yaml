@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - ''''
+  - {t: '8', h: toggle}
   - BACKSPACE
   - A
   - S
@@ -76,7 +76,7 @@ layers:
   - '&'
   - '*'
   - '?'
-  - '3'
+  - RCTRL
   - RIGHT WIN
   - ':'
   - _
@@ -101,8 +101,8 @@ layers:
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
-  - {t: '4', h: toggle}
-  - ''
+  - {t: '5', h: toggle}
+  - '&m1'
   - {t: ▽, type: trans}
   - '4'
   - '5'
@@ -143,8 +143,8 @@ layers:
   - F10
   - PAGE UP
   - PAGE DOWN
-  - ''
-  - ''
+  - '&m2'
+  - '&m3'
   - Sft+DELETE
   - RGUI
   - PRINTSCREEN
@@ -166,8 +166,8 @@ layers:
   - F9
   - F12
   - END
-  - {type: held}
-  - ''
+  - '&m4'
+  - '&m5'
   - Sft+END
   - {t: RIGHT SHIFT, h: sticky}
   - {t: RCTRL, h: sticky}
@@ -179,7 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   '4':
   - BT CLR
   - {t: BT, h: '0'}
