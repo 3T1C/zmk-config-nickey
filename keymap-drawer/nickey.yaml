@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - '&caps_word'
+  - LEFT SHIFT
   - RIGHT WIN
   - N
   - M
@@ -169,10 +169,10 @@ layers:
   - '&m4'
   - '&m5'
   - Sft+END
-  - {t: RIGHT SHIFT, h: sticky}
-  - {t: RCTRL, h: sticky}
-  - {t: RIGHT ALT, h: sticky}
-  - {t: RIGHT GUI, h: sticky}
+  - Gui+Sft+LEFT ARROW
+  - Ctl+Alt+Gui+LEFT ARROW
+  - Alt+Ctl+Gui+RIGHT ARROW
+  - DEL
   - RSHFT
   - {type: held}
   - {t: ▽, type: trans}
@@ -276,7 +276,7 @@ layers:
   - '2'
   - '3'
   - '1'
-  - ''
+  - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
@@ -516,4 +516,7 @@ combos:
   l: ['2']
 - p: [19, 20]
   k: ESCAPE
+  l: [default]
+- p: [24, 37]
+  k: '&caps_word'
   l: [default]
