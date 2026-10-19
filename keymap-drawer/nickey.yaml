@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: nickey}
 layers:
-  default:
+  '0':
   - TAB
   - Q
   - W
@@ -237,7 +237,7 @@ layers:
   - I
   - O
   - P
-  - {t: '1', h: toggle}
+  - {t: '0', h: toggle}
   - '7'
   - A
   - S
@@ -361,7 +361,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '8':
-  - {t: '1', h: toggle}
+  - {t: '0', h: toggle}
   - ''
   - UP ARROW
   - F1
@@ -406,7 +406,7 @@ layers:
   - LCTRL
   - LCTRL
   '9':
-  - {t: '1', h: toggle}
+  - {t: '0', h: toggle}
   - ''
   - ESC
   - ''
@@ -451,7 +451,7 @@ layers:
   - SPACE
   - SPACE
   '10':
-  - {t: '1', h: toggle}
+  - {t: '0', h: toggle}
   - '7'
   - '7'
   - '7'
@@ -498,25 +498,25 @@ layers:
 combos:
 - p: [0, 1]
   k: ESCAPE
-  l: ['1', '5']
+  l: ['0', '5']
 - p: [32, 33]
   k: Sft+HOME
-  l: ['1']
+  l: ['0']
 - p: [34, 35]
   k: Sft+END
-  l: ['1']
+  l: ['0']
 - p: [18, 19]
   k: Ctl+LEFT ARROW
-  l: ['1']
+  l: ['0']
 - p: [20, 21]
   k: Ctl+RIGHT
-  l: ['1']
+  l: ['0']
 - p: [17, 29]
   k: '&mkp MB3'
   l: ['2']
 - p: [19, 20]
   k: ESCAPE
-  l: ['1']
+  l: ['0']
 - p: [24, 37]
   k: '&caps_word'
-  l: ['1']
+  l: ['0']
