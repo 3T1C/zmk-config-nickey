@@ -39,7 +39,7 @@ layers:
   - .
   - RCTRL
   - {t: RIGHT SHIFT, h: sticky}
-  - '2'
+  - '1'
   - LCTRL
   - LEFT SHIFT
   - LEFT ALT
@@ -84,7 +84,7 @@ layers:
   - '|'
   - /
   - \
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - RIGHT ALT
   - RIGHT ALT
@@ -129,12 +129,12 @@ layers:
   - '&mmv MOVE_RIGHT'
   - LEFT ALT
   - '&mkp MB1'
-  - {type: held}
+  - {t: ▽, type: trans}
   - SPACE
   - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   '3':
   - {t: ▽, type: trans}
   - F1
@@ -174,12 +174,12 @@ layers:
   - Alt+Ctl+Gui+RIGHT ARROW
   - DEL
   - RSHFT
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   '4':
   - BT CLR
   - {t: BT, h: '0'}
