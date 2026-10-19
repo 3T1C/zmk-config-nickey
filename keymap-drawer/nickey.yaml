@@ -31,7 +31,7 @@ layers:
   - C
   - V
   - B
-  - LEFT SHIFT
+  - LEFT ALT
   - RIGHT WIN
   - N
   - M
@@ -39,9 +39,9 @@ layers:
   - .
   - RCTRL
   - {t: RIGHT SHIFT, h: sticky}
-  - '1'
+  - '2'
   - LCTRL
-  - LEFT ALT
+  - LEFT SHIFT
   - LEFT ALT
   - SPACE
   - '2'
@@ -84,9 +84,9 @@ layers:
   - '|'
   - /
   - \
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - RIGHT ALT
   - RIGHT ALT
   - SPACE
   - {t: ▽, type: trans}
@@ -129,12 +129,12 @@ layers:
   - '&mmv MOVE_RIGHT'
   - LEFT ALT
   - '&mkp MB1'
-  - {t: ▽, type: trans}
-  - SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - SPACE
+  - RIGHT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
   - F1
@@ -176,10 +176,10 @@ layers:
   - RSHFT
   - {type: held}
   - {t: ▽, type: trans}
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   '4':
   - BT CLR
   - {t: BT, h: '0'}
@@ -221,7 +221,7 @@ layers:
   - ','
   - LEFT ALT
   - LCTRL
-  - {t: ▽, type: trans}
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - SPACE
   - /
@@ -237,7 +237,7 @@ layers:
   - I
   - O
   - P
-  - {t: default, h: toggle}
+  - {t: '1', h: toggle}
   - '7'
   - A
   - S
@@ -361,7 +361,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '8':
-  - {t: default, h: toggle}
+  - {t: '1', h: toggle}
   - ''
   - UP ARROW
   - F1
@@ -406,7 +406,7 @@ layers:
   - LCTRL
   - LCTRL
   '9':
-  - {t: default, h: toggle}
+  - {t: '1', h: toggle}
   - ''
   - ESC
   - ''
@@ -451,7 +451,7 @@ layers:
   - SPACE
   - SPACE
   '10':
-  - {t: default, h: toggle}
+  - {t: '1', h: toggle}
   - '7'
   - '7'
   - '7'
@@ -498,25 +498,25 @@ layers:
 combos:
 - p: [0, 1]
   k: ESCAPE
-  l: [default, '5']
+  l: ['1', '5']
 - p: [32, 33]
   k: Sft+HOME
-  l: [default]
+  l: ['1']
 - p: [34, 35]
   k: Sft+END
-  l: [default]
+  l: ['1']
 - p: [18, 19]
   k: Ctl+LEFT ARROW
-  l: [default]
+  l: ['1']
 - p: [20, 21]
   k: Ctl+RIGHT
-  l: [default]
+  l: ['1']
 - p: [17, 29]
   k: '&mkp MB3'
   l: ['2']
 - p: [19, 20]
   k: ESCAPE
-  l: [default]
+  l: ['1']
 - p: [24, 37]
   k: '&caps_word'
-  l: [default]
+  l: ['1']
