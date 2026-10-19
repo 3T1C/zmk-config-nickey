@@ -368,9 +368,9 @@ layers:
   - F2
   - F3
   - ''
-  - '7'
-  - '7'
-  - '0'
+  - KP 7
+  - KP 7
+  - KP 0
   - UP ARROW
   - {t: '9', h: toggle}
   - RCTRL
@@ -379,9 +379,9 @@ layers:
   - RIGHT ARROW
   - ''
   - END
-  - '1'
-  - '4'
-  - '7'
+  - KP 1
+  - KP 4
+  - KP 7
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -390,18 +390,18 @@ layers:
   - ''
   - ''
   - ''
-  - '7'
-  - '9'
+  - KP 7
+  - KP 9
   - ''
-  - '1'
-  - '1'
+  - KP 1
+  - KP 1
   - ''
   - ''
   - ''
   - ''
   - LCTRL
-  - '1'
-  - '3'
+  - KP 1
+  - KP 3
   - LCTRL
   - LCTRL
   - LCTRL
@@ -452,49 +452,49 @@ layers:
   - SPACE
   '10':
   - {t: '0', h: toggle}
-  - '7'
-  - '7'
-  - '7'
+  - KP 7
+  - KP 7
+  - KP 7
   - F2
-  - '9'
-  - '7'
+  - KP 9
+  - KP 7
   - ''
-  - '9'
-  - '9'
+  - KP 9
+  - KP 9
   - ''
   - KP NUMLOCK
   - ''
   - ''
-  - '4'
-  - '4'
-  - '4'
-  - '6'
-  - '4'
-  - '6'
-  - '6'
+  - KP 4
+  - KP 4
+  - KP 4
+  - KP 6
+  - KP 4
+  - KP 6
+  - KP 6
   - ''
   - ''
   - KP ENTER
   - ''
   - ''
-  - '1'
-  - '1'
-  - '1'
-  - '3'
+  - KP 1
+  - KP 1
+  - KP 1
+  - KP 3
   - ''
   - ''
-  - '1'
-  - '3'
-  - '3'
+  - KP 1
+  - KP 3
+  - KP 3
   - ''
   - ''
   - ''
-  - '5'
-  - '0'
-  - '0'
-  - '0'
-  - '0'
-  - '5'
+  - KP 5
+  - KP 0
+  - KP 0
+  - KP 0
+  - KP 0
+  - KP 5
 combos:
 - p: [0, 1]
   k: ESCAPE
